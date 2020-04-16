@@ -1,0 +1,9 @@
+{
+  "name": "hairline.css",
+  "version": "1.0.0",
+  "description": "CSS retina hairline",
+  "main": "index.js",
+  "repository": "git@github.com:wangchi/hairline.css.git",
+  "author": "Wang Chi <hiwangchi@gmail.com>",
+  "license": "MIT"
+}
