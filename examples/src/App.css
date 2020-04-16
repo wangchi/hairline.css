@@ -1,0 +1,61 @@
+:root {
+  --text-color: #000;
+  --border-color: #666;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  margin: 30px;
+  padding: 30px;
+  color: var(--text-color);
+  text-align: center;
+}
+
+.border-default {
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+}
+
+.hairline-top {
+  --color: red;
+  --hairline-color: var(--color);
+  color: var(--color);
+  padding-top: 10px;
+}
+
+.hairline-left {
+  --color: green;
+  --hairline-color: var(--color);
+  color: var(--color);
+  padding-left: 10px;
+  text-align: left;
+}
+
+.hairline-right {
+  --color: blue;
+  --hairline-color: var(--color);
+  color: var(--color);
+  padding-right: 10px;
+  text-align: right;
+}
+
+.hairline-bottom {
+  --color: #00daff;
+  --hairline-color: var(--color);
+  color: var(--color);
+  padding-bottom: 10px;
+}
+
+.hairline-round {
+  --color: #f80;
+  --hairline-color: var(--color);
+  color: var(--color);
+}
+
+.hairline-round::before {
+  border-radius: 5px;
+}
