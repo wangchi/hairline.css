@@ -2,12 +2,12 @@
 
 CSS retina hairline, implement by CSS pseudo-element and CSS Variables.
 
-Most webpack-based projects can work well.
+Most webpack-based projects can work well. [Examples](https://wangchi.github.io/hairline.css)
 
 ## Preview
 
 <p>
-<img width="260" src="./assets/hairline.png"/>
+<img width="300" src="./assets/hairline.jpg"/>
 </p>
 
 ## Usage
@@ -48,7 +48,7 @@ Then, you can use `hairline-top`, `hairline-left`, `hairline-right`, `hairline-b
 
 ## Custom border color
 
-Default border color is `#666`， you can use CSS Variables custom the border color:
+Default border color is `#666`， you can use CSS Variable `--hairline-color` custom the border color:
 
 ```css
 .hairline-top {
